@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:link {
+  color: initial;
+  text-decoration: none;
+}
+
+/*===========  NK CSS ==========*/
+figure{
+  margin: 0;
+}
+.netflixshows {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+}
+
+.show_poster {
+ width: 20%;
+ margin: 0.75em 0;
+}
+
+.show_poster img {
+  width: 100%;
+}
+
+/* AirBnB */
+.airbnb_listings {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  height: 400px;  
+}
+
+.property {
+  width: 24%;
+  margin: 1em 0.8em;
+}
+
+.property img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.property h2 {
+  margin-top: .5em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* BBC News */
+
+.latest_news {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 75vw;
+  margin: 3em auto;
+
+}
+
+.newstory {
+  width: 24%;
+  margin: 1em 0.8em;
+}
+
+.story_img{
+  width: 100%;
+}
+
+.newstory h2 {
+  font-size: 1.1em;
+  margin: 0.2em 0;
+}
+
+.newstory p {
+  font-size: 1em;
+}
+
+.newstory h2 a:hover {
+  text-decoration: underline;
+  color: rgb(0, 112, 187);
+}
+
+.newstory ul {
+  list-style-type: none;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+
+.newstory ul li {
+  margin-right: 1em;
+}
